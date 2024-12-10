@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+
 def carregar_modelo():
     url = 'https://drive.google.com/uc?id=1qx588OS3RKd7l_AZ71TVDjl8I8zKa0I4'
     gdown.download(url, 'modelo_palavras.keras')
