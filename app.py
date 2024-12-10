@@ -3,7 +3,7 @@ import gdown
 import tensorflow as tf
 import pickle
 import numpy as np
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 
 
 def carregar_modelo():
