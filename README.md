@@ -1,1 +1,1 @@
-# segere_palavras
+# sugere_palavras
